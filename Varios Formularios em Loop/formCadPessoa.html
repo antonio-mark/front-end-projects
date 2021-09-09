@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Cad Varias Pessoas</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="formCadPessoa.css">
+	<script src="formCadPessoa.js"></script>
+</head>
+<body>
+<header><h1>Formulário</h1></header>
+<main>
+<section id="section">
+	<form>
+        <p>
+            <label>Nome: </label><input type="text" name="n_nome" id="id_nome" required/>
+        </p>
+
+	    <p>
+            <label>Idade: </label><input type="text" name="n_idade" id="id_idade" required/>
+        </p>
+
+        <p>
+            <label>Cidade: </label><input type="text" name="n_cidade" id="id_cidade" required/>
+        </p>
+
+        <p>
+            <label>E-mail: </label><input type="email" name="n_email" id="id_email" />
+        </p>
+
+        <p>
+            <label>Senha: </label><input type="password" name="n_senha" id="id_senha" />
+        </p>
+
+        <input id="bt" type="button" value="Enviar" onclick="enviar()" />
+    </form>
+	<br>
+
+<section id="exibir">
+	<h2>Usuários</h2>
+</section>
+
+</section>
+
+</main>
+<footer> </footer>
+</body>
+</html>

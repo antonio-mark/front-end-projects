@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="exerJS.css">
+	<script src="exerJS.js"></script>
+</head>
+<body>
+<header><h1>Formulário</h1></header>
+<main>
+
+<section id="section">
+	<form>
+        <p>
+            <label>Nome </label><input type="text" name="n_nome" id="id_nome" required/>
+        </p>
+
+		<p>
+            <label>Idade </label><input type="text" name="n_idade" id="id_idade" required/>
+        </p>
+
+        <p>
+            <label>Cidade </label><input type="text" name="n_cidade" id="id_cidade" required/>
+        </p>
+
+		<p>
+            <label>Data de Nascimento </label>
+            <input type="date" name="n_date" id="id_date" />
+        </p>
+
+        <p>
+            <label>E-mail </label>
+            <input type="email" name="n_email" id="id_email" />
+        </p>
+
+        <p>
+            <label>Senha </label>
+            <input type="password" name="n_senha" id="id_senha" />
+        </p>
+
+        <input type="button" id="button" value="Enviar" onclick="enviar()" />
+
+    </form>
+	<br>
+	<section id="exibir">
+	</section>
+
+</section>
+
+</main>
+<footer> </footer>
+</body>
+</html>

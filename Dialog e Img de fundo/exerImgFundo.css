@@ -1,0 +1,48 @@
+body{
+    background-image: url("img/drakengard3.jpg");
+	  background-size: 100%;
+    background-repeat: no-repeat;
+}
+#inicio{
+  font-size: 120%;
+  font-family: Comic;
+  color: blue;
+  text-transform: capitalize;
+}
+#ultimo{
+  font-size: 100%;
+  font-weight: bold;
+  text-decoration: overline;
+  text-shadow: 2px 1px 3px;
+  font-family: serif;
+}
+dialog{
+  background-color: black;
+  color: #1E90FF;
+  margin-left: 78%;
+  margin-top: -22%;
+  height: 3%;
+  font-style: italic;
+}
+details{
+  font-size: 120%;
+  background-color: #1E90FF;
+  font-family: monospace;
+  text-transform: uppercase;
+  display: inline-block;
+}
+section{
+    width: 50%;
+  	font: 20px arial;
+  	text-align: left;
+    color: black;
+    font-size: 120%;
+}
+header{
+	text-decoration: underline overline;
+	text-decoration-color: rgb(150,221,215);
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size:400%;
+	font-family: Arial;
+}

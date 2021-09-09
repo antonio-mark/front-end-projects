@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+section{
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+a{
+    margin: 20px;
+    font-size: 10vh;
+    color:red;
+    text-decoration: none;
+}
+a:hover{
+	text-shadow: 1px 1px 10px white;
+	cursor: pointer;
+}

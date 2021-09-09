@@ -1,0 +1,37 @@
+#roles{
+	color:white;
+	background-color:rgb(147,112,219);
+	display: inline-block;
+}
+header{
+	background-color:#6600CC;
+	color:white;
+	display: inline-block;
+}
+section{
+	color:#0066FF;
+	background-color:#6600CC;
+}
+h3{
+	color: #6600CC;
+}
+#champ{
+	color: rgb(130,25,250);
+}
+.lanes{
+	background-color:#6600CC;
+	color:white;
+}
+article.classe{
+	color:white;
+	background-color:purple;
+}
+ul{
+	background-color:rgb(147,112,219);
+	color: white;
+}
+footer{
+	background-color:#6600CC;
+	color:white;
+	display: inline-block;
+}

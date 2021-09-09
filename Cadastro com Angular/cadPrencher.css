@@ -1,0 +1,32 @@
+section{
+    text-align: center;
+    color: blue;
+    font-size: 120%;
+}
+label{
+    font-size: 120%;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+#bt{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    width: 25%;
+}
+#bt:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+input{
+    font-size: 105%;
+    border: 2px solid blue;
+    color: blue;
+}
+textarea{
+    color: blue;
+}

@@ -1,0 +1,33 @@
+form{
+    text-align: center;
+    color: blue;
+    font-size: 120%;
+}
+label{
+    font-size: 120%;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+h2{
+    color: blue;
+    text-align: center;
+    font-size: 130%;
+}
+#bt{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    font-size: 110%;
+    width: 20%;
+}
+#bt:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+input{
+    font-size: 105%;
+    border: 2px solid blue;
+}
