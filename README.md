@@ -1,5 +1,10 @@
 # front-end-projects
-
+[![preview](https://i.postimg.cc/kgLKhWSK/Screenshot-1.png)](https://postimg.cc/CRHRRBmx)
+[![preview-calculates](https://i.postimg.cc/XYr98srn/Screenshot-4.png)](https://postimg.cc/pmt9VYQS)
+[![preview-vue](https://i.postimg.cc/C1gDwYmK/Screenshot-6.png)](https://postimg.cc/zLx3jmmm)
+[![preview-bootstrap](https://i.postimg.cc/D0fXb6Vk/Screenshot-5.png)](https://postimg.cc/wyPvChT0)
+[![preview-css](https://i.postimg.cc/TPmg8hjS/Screenshot-2.png)](https://postimg.cc/1gmfwmjc)
+[![preview-css2](https://i.postimg.cc/1trFtTjr/Screenshot-3.png)](https://postimg.cc/gXrjtMdx)
 
 ## Sobre o Projeto
 É um site que dentro dele tem vários outros sites linkados todos feitos por mim utilizando variados recursos HTML, CSS e JS.
