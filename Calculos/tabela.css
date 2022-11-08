@@ -1,45 +1,46 @@
-form{
-    text-align: center;
-    color: blue;
-    font-size: 120%;
+form {
+  text-align: center;
+  color: blue;
+  font-size: 120%;
 }
-h1{
-    color: blue;
-    text-align: center;
+h1 {
+  color: blue;
+  text-align: center;
 }
-b{
-    font-size: 110%;
+b {
+  font-size: 110%;
 }
-#bt{
-    background-color: blue;
-    color: white;
-    border-radius: 20px;
-    font-size: 110%;
-    width: clamp(14ch, 10%, 14ch);
+#bt {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  font-size: 110%;
+  width: clamp(14ch, 10%, 14ch);
 }
-#bt:hover{
-    background-color: white;
-    color: blue;
-    cursor: pointer;
+#bt:hover {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
 }
-input{
-    font-size: 105%;
-    border: 2px solid blue;
-    border-radius: 20px;
-    text-align-last: center;
+input {
+  font-size: 105%;
+  border: 2px solid blue;
+  border-radius: 20px;
+  text-align-last: center;
 }
-select{
-    border-radius: 20px;
-    font-size: 120%;
-    border: 3px solid blue;
-    color:white;
-    background-color: blue;
-    text-align-last: center;
+select {
+  border-radius: 20px;
+  font-size: 120%;
+  border: 3px solid blue;
+  color: white;
+  background-color: blue;
+  text-align-last: center;
 }
-input, textarea{
-    color: blue;
+input,
+textarea {
+  color: blue;
 }
-section{
-    text-align: center;
-    color: blue;
+section {
+  text-align: center;
+  color: blue;
 }

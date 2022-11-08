@@ -1,11 +1,11 @@
-var eventBus = new Vue()
+var eventBus = new Vue();
 
-Vue.component('product', {
+Vue.component("product", {
   props: {
     premium: {
       type: Boolean,
-      required: true
-    }
+      required: true,
+    },
   },
   template: `
   <div class="product">
@@ -43,65 +43,65 @@ Vue.component('product', {
   `,
   data() {
     return {
-      brand: 'Soccer',
-      color: 'red',
-      product: 'Balls',
+      brand: "Soccer",
+      color: "red",
+      product: "Balls",
       selectedVariant: 0,
       details: ["80% leather", "20% plastic", "KIPSTA"],
 
       variants: [
-          {
-            variantId: 2234,
-            variantColor: "red",
-            variantImage: './img/img-ball-red.png',
-            variantQuantity: 10
-          },
-          {
-            variantId: 2235,
-            variantColor: "blue",
-            variantImage: './img/img-ball-white.png',
-            variantQuantity: 0,
-          }
-        ],
-        reviews: []
-      }
-    },
+        {
+          variantId: 2234,
+          variantColor: "red",
+          variantImage: "./img/img-ball-red.png",
+          variantQuantity: 10,
+        },
+        {
+          variantId: 2235,
+          variantColor: "blue",
+          variantImage: "./img/img-ball-white.png",
+          variantQuantity: 0,
+        },
+      ],
+      reviews: [],
+    };
+  },
   methods: {
     addToCart() {
-      this.$emit('add-to-cart', this.variants[this.selectedVariant].variantId)
+      this.$emit("add-to-cart", this.variants[this.selectedVariant].variantId);
     },
     uptadeProduct(index) {
-      this.selectedVariant = index
+      this.selectedVariant = index;
     },
     removeFromCart() {
-      this.$emit('remove-from-cart', this.variants[this.selectedVariant].variantId)
-    }
+      this.$emit("remove-from-cart", this.variants[this.selectedVariant].variantId);
+    },
   },
   computed: {
     title() {
-      return this.brand + ' ' + this.product
+      return this.brand + " " + this.product;
     },
     image() {
-      return this.variants[this.selectedVariant].variantImage
+      return this.variants[this.selectedVariant].variantImage;
     },
     inStock() {
-      return this.variants[this.selectedVariant].variantQuantity
+      return this.variants[this.selectedVariant].variantQuantity;
     },
     shipping() {
       if (this.premium && this.variants[this.selectedVariant].variantQuantity == 0) {
-        return "Free"
+        return "Free";
       }
-      return 2.99
-    }
+      return 2.99;
+    },
   },
   mounted() {
-    eventBus.$on('review-submitted', productReview => {
-      this.reviews.push(productReview)
-    })
-  }
-})
+    eventBus.$on("review-submitted", (productReview) => {
+      this.reviews.push(productReview);
+    });
+  },
+});
 
-Vue.component('product-review',  {
+Vue.component("product-review", {
   template: `
     <form class="review-form" @submit.prevent="onSubmit">
 
@@ -155,8 +155,8 @@ Vue.component('product-review',  {
       review: null,
       rating: null,
       recommend: null,
-      errors: []
-    }
+      errors: [],
+    };
   },
   methods: {
     onSubmit() {
@@ -166,30 +166,29 @@ Vue.component('product-review',  {
           name: this.name,
           review: this.review,
           rating: this.rating,
-          recommend: this.recommend
-        }
-        eventBus.$emit('review-submitted', productReview)
-        this.name = null
-        this.review = null
-        this.rating = null
-        this.recommend = null
+          recommend: this.recommend,
+        };
+        eventBus.$emit("review-submitted", productReview);
+        this.name = null;
+        this.review = null;
+        this.rating = null;
+        this.recommend = null;
+      } else {
+        if (!this.name) this.errors.push("Name required.");
+        if (!this.review) this.errors.push("Review required.");
+        if (!this.rating) this.errors.push("Rating required.");
+        if (!this.recommend) this.errors.push("Recommendation required.");
       }
-      else {
-        if(!this.name) this.errors.push("Name required.")
-        if(!this.review) this.errors.push("Review required.")
-        if(!this.rating) this.errors.push("Rating required.")
-        if(!this.recommend) this.errors.push("Recommendation required.")
-      }
-    }
-  }
-})
+    },
+  },
+});
 
-Vue.component('product-tabs', {
+Vue.component("product-tabs", {
   props: {
     reviews: {
       type: Array,
-      required: true
-    }
+      required: true,
+    },
   },
   template: `
     <div>
@@ -214,28 +213,28 @@ Vue.component('product-tabs', {
   `,
   data() {
     return {
-      tabs: ['Reviews', 'Make a Review'],
-      selectedTab: 'Reviews'
-    }
-  }
-})
+      tabs: ["Reviews", "Make a Review"],
+      selectedTab: "Reviews",
+    };
+  },
+});
 
 var app = new Vue({
-  el: '#app',
+  el: "#app",
   data: {
     premium: true,
-    cart: []
+    cart: [],
   },
   methods: {
     uptadeCart(id) {
-      this.cart.push(id)
+      this.cart.push(id);
     },
     removeItem(id) {
       for (var i = this.cart.length - 1; i >= 0; i--) {
-          if (this.cart[i] == id) {
-            this.cart.splice(i, 1);
-          }
+        if (this.cart[i] == id) {
+          this.cart.splice(i, 1);
+        }
       }
-    }
-  }
-})
+    },
+  },
+});

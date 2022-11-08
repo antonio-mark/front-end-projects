@@ -1,43 +1,79 @@
-main{
-    align-items: center;
-    text-align: center;
- }
- #meio{
-    width: clamp(55ch, 30%, 55ch);
-    height: clamp(55ch, 30%, 55ch);
-	 transition:filter 3s;
-	 transition-delay:3s;
-    align-items: center;
-    text-align: center;
- }
- #meio:hover{
-	filter:invert(100%);
- }
- #weiss{
-    width: 13%;
-    height: 13%;
-    animation: weiss 6s infinite;
-    position: relative;
- }
- #rose{
-    width: 13%;
-    height: 13%;
-    animation: rose 6s infinite;
-    position: relative;
- }
- @keyframes rose {
-    0%   { left:0%; top:0em;}
-    25%  { left:40%; top:0em;}
-    50%  { left:40%; top:28em;}
-    75%  { left:-40%; top:28em;}
-    85%  { left:-40%; top:0em;}
-    100% { left:0%; top:0em;}
- }
- @keyframes weiss {
-    0%   { left:0%; top:0em;}
-    25%  { left:-40%; top:0em;}
-    50%  { left:-40%; top:-28em;}
-    75%  { left:40%; top:-28em;}
-    85%  { left:40%; top:0em;}
-    100% { left:0%; top:0em;}
- }
+main {
+  align-items: center;
+  text-align: center;
+}
+#meio {
+  width: clamp(55ch, 30%, 55ch);
+  height: clamp(55ch, 30%, 55ch);
+  transition: filter 3s;
+  transition-delay: 3s;
+  align-items: center;
+  text-align: center;
+}
+#meio:hover {
+  filter: invert(100%);
+}
+#weiss {
+  width: 13%;
+  height: 13%;
+  animation: weiss 6s infinite;
+  position: relative;
+}
+#rose {
+  width: 13%;
+  height: 13%;
+  animation: rose 6s infinite;
+  position: relative;
+}
+@keyframes rose {
+  0% {
+    left: 0%;
+    top: 0em;
+  }
+  25% {
+    left: 40%;
+    top: 0em;
+  }
+  50% {
+    left: 40%;
+    top: 28em;
+  }
+  75% {
+    left: -40%;
+    top: 28em;
+  }
+  85% {
+    left: -40%;
+    top: 0em;
+  }
+  100% {
+    left: 0%;
+    top: 0em;
+  }
+}
+@keyframes weiss {
+  0% {
+    left: 0%;
+    top: 0em;
+  }
+  25% {
+    left: -40%;
+    top: 0em;
+  }
+  50% {
+    left: -40%;
+    top: -28em;
+  }
+  75% {
+    left: 40%;
+    top: -28em;
+  }
+  85% {
+    left: 40%;
+    top: 0em;
+  }
+  100% {
+    left: 0%;
+    top: 0em;
+  }
+}

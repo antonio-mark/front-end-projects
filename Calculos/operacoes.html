@@ -1,43 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Operações</title>
-    <meta charset="utf-8">
-	<link rel="stylesheet" href="operacoes.css">
-	<script src="operacoes.js"> </script>
-</head>
-<body>
-<header> </header>
-<main>
-    <h2>Operações</h2>
-	<form>
-        <p>
-            <label>Valor 1: </label><input type="number" id="v1">
-        </p>
+  <head>
+    <title>Operações</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="operacoes.css" />
+    <script src="operacoes.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h2>Operações</h2>
+      <form>
+        <p><label>Valor 1: </label><input type="number" id="v1" /></p>
+
+        <p><label id="label">Valor 2: </label><input type="number" id="v2" /></p>
 
         <p>
-            <label id=label>Valor 2: </label><input type="number" id="v2">
-        </p>
-
-        <p>
-        <select id="options" onchange="ocultar(this)">
-    		<option value="adicao">Adição</option>
-    		<option value="subtracao">Subtração</option>
-    		<option value="multiplicacao">Multiplicação</option>
+          <select id="options" onchange="ocultar(this)">
+            <option value="adicao">Adição</option>
+            <option value="subtracao">Subtração</option>
+            <option value="multiplicacao">Multiplicação</option>
             <option value="divisao">Divisão</option>
-    		<option value="resto">Resto da divisão</option>
+            <option value="resto">Resto da divisão</option>
             <option value="potencia">Potência</option>
             <option value="raiz">Raiz</option>
-	    </select>
+          </select>
         </p>
 
-		<input id="bt" type="button" onclick="operacoes()" value="Executar"><br>
-	</form>
+        <input id="bt" type="button" onclick="operacoes()" value="Executar" /><br />
+      </form>
 
-	<section id="resultado">
-
-	</section>
-</main>
-<footer> </footer>
-</body>
+      <section id="resultado"></section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

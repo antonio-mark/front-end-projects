@@ -1,26 +1,27 @@
-<html ng-app="myApp">
-<meta charset="utf-8">
-<title>Operações com Angular</title>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
-<link rel="stylesheet" href="aritAngular.css">
-<body>
-<script>
-  var app = angular.module('myApp', ['ngAnimate']);
-</script>
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="myApp">
+  <head>
+    <title>Operações com Angular</title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
+  </head>
+  <link rel="stylesheet" href="aritAngular.css" />
+  <body>
+    <script>
+      var app = angular.module("myApp", ["ngAnimate"]);
+    </script>
 
-<h2><input id="bt" type="button" value="Operações Aritméticas" ng-click="disabled =!disabled"></h2>
+    <h2><input id="bt" type="button" value="Operações Aritméticas" ng-click="disabled =!disabled" /></h2>
 
-<section ng-hide="!disabled" ng-init="a=1;b=1" >
+    <section ng-hide="!disabled" ng-init="a=1;b=1">
+      <p>A: <input type="number" ng-model="a" /></p>
+      <p>B: <input type="number" ng-model="b" /></p>
 
-<p> A: <input type="number" ng-model="a"> </p>
-<p> B: <input type="number" ng-model="b"> </p>
-
-<p>Multiplicação: {{ a * b }} </p>
-<p>Divisão: {{ a / b }} </p>
-<p>Soma: {{ a + b }} </p>
-<p>Subtração: {{ a - b }} </p>
-</section>
-
-</body>
+      <p>Multiplicação: {{ a * b }}</p>
+      <p>Divisão: {{ a / b }}</p>
+      <p>Soma: {{ a + b }}</p>
+      <p>Subtração: {{ a - b }}</p>
+    </section>
+  </body>
 </html>

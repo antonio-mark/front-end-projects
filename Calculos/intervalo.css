@@ -1,27 +1,27 @@
-form{
-    text-align: center;
-    color: blue;
-    font-size: 120%;
+form {
+  text-align: center;
+  color: blue;
+  font-size: 120%;
 }
-label{
-    font-size: 120%;
+label {
+  font-size: 120%;
 }
-h2{
-    color: blue;
-    text-align: center;
+h2 {
+  color: blue;
+  text-align: center;
 }
-#bt{
-    background-color: blue;
-    color: white;
-    border-radius: 20px;
-    width: 15%;
+#bt {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  width: 15%;
 }
-#bt:hover{
-    background-color: white;
-    color: blue;
-    cursor: pointer;
+#bt:hover {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
 }
-input{
-    font-size: 105%;
-    border: 2px solid blue;
+input {
+  font-size: 105%;
+  border: 2px solid blue;
 }

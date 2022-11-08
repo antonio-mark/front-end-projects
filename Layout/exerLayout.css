@@ -1,134 +1,134 @@
-body{
-	background-color:#62A;
+body {
+  background-color: #62a;
 }
-header{
-	width: 100%;
-	height: 120px;
-	display:flex;
+header {
+  width: 100%;
+  height: 120px;
+  display: flex;
 }
-nav{
-	width: 100%;
-	height: 120px;
-	display:flex;
+nav {
+  width: 100%;
+  height: 120px;
+  display: flex;
 }
-ul{
-	width:100%;
-	height: 80px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: white;
-	border-radius: 50px 50px 50px 50px;
-	box-shadow: 1px 1px 10px #000;
+ul {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 1px 1px 10px #000;
 }
-li{
-	color:black;
-	font-size:5vh;
-	display:block;
-	font-family: tahoma;
-	text-shadow: 1px 1px 3px #000;
-	font-weight: bold;
-	transition: 0.3s;
+li {
+  color: black;
+  font-size: 5vh;
+  display: block;
+  font-family: tahoma;
+  text-shadow: 1px 1px 3px #000;
+  font-weight: bold;
+  transition: 0.3s;
 }
-a{
-	color:#62A;
-	text-decoration: none;
+a {
+  color: #62a;
+  text-decoration: none;
 }
-a:hover{
-	text-shadow: 1px 1px 10px #62A;
-	cursor: pointer;
+a:hover {
+  text-shadow: 1px 1px 10px #62a;
+  cursor: pointer;
 }
-#texto{
-	width: 100%;
-	text-align: center;
+#texto {
+  width: 100%;
+  text-align: center;
 }
-#imgtexto{
-	position: absolute;
-	top: 180px;
-	right: 70px;
+#imgtexto {
+  position: absolute;
+  top: 180px;
+  right: 70px;
 }
-h1{
-	font-size: 50px;
-	color: white;
-	width: 50%;
-	font-family: Arial;
+h1 {
+  font-size: 50px;
+  color: white;
+  width: 50%;
+  font-family: Arial;
 }
-p{
-	text-align: center;
-	color: white;
-	font-size: 4vh;
-	width: 50%;
+p {
+  text-align: center;
+  color: white;
+  font-size: 4vh;
+  width: 50%;
 }
-table{
-	border: 10px solid white;
+table {
+  border: 10px solid white;
 }
-.img{
-	width:255px;
-	height:250px;
+.img {
+  width: 255px;
+  height: 250px;
 }
-#i1:hover{
-	transform:rotate(180deg);
-	filter:contrast(200%);
+#i1:hover {
+  transform: rotate(180deg);
+  filter: contrast(200%);
 }
-#i2:hover{
-	transform:translate(20px,21px);
-	filter:grayscale(70%);
+#i2:hover {
+  transform: translate(20px, 21px);
+  filter: grayscale(70%);
 }
-#i3:hover{
-	transform:scale(2,2);
-	filter:drop-shadow(8px 8px 10px black);
+#i3:hover {
+  transform: scale(2, 2);
+  filter: drop-shadow(8px 8px 10px black);
 }
-#i4:hover{
-	transform:scale(1.2,1.2);
-	filter:invert(100%);
+#i4:hover {
+  transform: scale(1.2, 1.2);
+  filter: invert(100%);
 }
-#i5:hover{
-	transform:skew(190deg,190deg);
-	filter:brightness(300%);
+#i5:hover {
+  transform: skew(190deg, 190deg);
+  filter: brightness(300%);
 }
-#i6:hover{
-	filter: contrast(150%);
+#i6:hover {
+  filter: contrast(150%);
 }
-#i7:hover{
-	filter: none;
+#i7:hover {
+  filter: none;
 }
-#i8:hover{
-	filter: none;
+#i8:hover {
+  filter: none;
 }
-#i9:hover{
-	filter: none;
-	transform: none;
+#i9:hover {
+  filter: none;
+  transform: none;
 }
-#i10:hover{
-	filter: none;
+#i10:hover {
+  filter: none;
 }
-#i6{
-	transform:scale(0.8,0.8);
-	filter:hue-rotate(250deg);
+#i6 {
+  transform: scale(0.8, 0.8);
+  filter: hue-rotate(250deg);
 }
-#i7{
-	filter:opacity(25%);
+#i7 {
+  filter: opacity(25%);
 }
-#i8{
-	filter:saturate(3);
+#i8 {
+  filter: saturate(3);
 }
-#i9{
-	filter:sepia(100%);
-	transform:scale(0.6,0.6);
+#i9 {
+  filter: sepia(100%);
+  transform: scale(0.6, 0.6);
 }
-#i10{
-	filter:grayscale(100%);
+#i10 {
+  filter: grayscale(100%);
 }
-#imgfundo{
-	float:right;
+#imgfundo {
+  float: right;
 }
-#imgfundo2{
-	float:left;
+#imgfundo2 {
+  float: left;
 }
-#imgfooter{
-	width: 300px;
-	height: 80px;
-	position: absolute;
-	top: 215%;
-	left: 39%;
+#imgfooter {
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  top: 215%;
+  left: 39%;
 }

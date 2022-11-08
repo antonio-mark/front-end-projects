@@ -1,34 +1,34 @@
-#section{
-    text-align: center;
-    color: blue;
-    font-size: 120%;
+#section {
+  text-align: center;
+  color: blue;
+  font-size: 120%;
 }
-label{
-    font-size: 120%;
+label {
+  font-size: 120%;
 }
-h1{
-    font-size: 350%;
-    text-align: center;
-    color: blue;
+h1 {
+  font-size: 350%;
+  text-align: center;
+  color: blue;
 }
-input{
-    font-size: 110%;
-    border: 2px solid blue;
-    border-radius: 12px;
+input {
+  font-size: 110%;
+  border: 2px solid blue;
+  border-radius: 12px;
 }
-table{
-    color: blue;
-    background-color: rgb(35, 203, 209); 
+table {
+  color: blue;
+  background-color: rgb(35, 203, 209);
 }
-#button{
-    border-radius: 12px;
-    cursor: pointer;
-    background-color: rgb(35, 203, 209); 
-    color: blue; 
-    border: 2px solid rgb(34, 102, 129);
-    font-size: 170%;
-    width: clamp(12ch, 10%, 12ch);
+#button {
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: rgb(35, 203, 209);
+  color: blue;
+  border: 2px solid rgb(34, 102, 129);
+  font-size: 170%;
+  width: clamp(12ch, 10%, 12ch);
 }
-#button:hover{
-    background-color: white;
+#button:hover {
+  background-color: white;
 }

@@ -1,6 +1,6 @@
 body {
   font-family: tahoma;
-  color:#282828;
+  color: #282828;
   margin: 0px;
 }
 
@@ -20,7 +20,7 @@ img {
   border: 1px solid #d8d8d8;
   width: 60%;
   margin: 40px;
-  box-shadow: 0px .5px 1px #d8d8d8;
+  box-shadow: 0px 0.5px 1px #d8d8d8;
 }
 
 .product-image,
@@ -45,7 +45,7 @@ img {
 button {
   margin-top: 30px;
   border: none;
-  background-color: #1E95EA;
+  background-color: #1e95ea;
   color: white;
   height: 40px;
   width: 130px;
@@ -85,6 +85,6 @@ textarea {
 }
 
 .activeTab {
-  color: #16C0B0;
+  color: #16c0b0;
   text-decoration: underline;
 }

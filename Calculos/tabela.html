@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Lancheria</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="tabela.css">
-        <script src="tabela.js"></script>
-    </head>
-    <body>
-        <header> </header>
-        <main>
-            <form>
-            <h1>Lanches</h1>
-            <h2>Selecione um lanche</h2>
-            <p>
-              <select id="opcoes">
-                  <option>Suco gummy</option>
-                  <option>Água da Jamaica</option>
-                  <option>Cachaça Coral</option>
-                  <option>Crepe Preá Queijo</option>
-                  <option>Pastel Marreco Catupiry</option>
-                  <option>Xis Mondongo</option>
-                  <option>Prato rabanete, sardinha, repolho e feijão</option>
-                  <option>Semente do Delzes</option>
-              </select>
-            </p>         
-                <b>Quantidade: </b><input type="number" id="quantidade">
-            
-            <p>
-                <input id="bt" type="button" value="Calcular" onclick="calcular()">
-            </p>
+  <head>
+    <title>Lancheria</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="tabela.css" />
+    <script src="tabela.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form>
+        <h1>Lanches</h1>
+        <h2>Selecione um lanche</h2>
+        <p>
+          <select id="opcoes">
+            <option>Suco gummy</option>
+            <option>Água da Jamaica</option>
+            <option>Cachaça Coral</option>
+            <option>Crepe Preá Queijo</option>
+            <option>Pastel Marreco Catupiry</option>
+            <option>Xis Mondongo</option>
+            <option>Prato rabanete, sardinha, repolho e feijão</option>
+            <option>Semente do Delzes</option>
+          </select>
+        </p>
+        <b>Quantidade: </b><input type="number" id="quantidade" />
 
-        </form>
-        <section id="resultado">
-
-        </section>
-        </main>
-        <footer></footer>
-    </body>
+        <p>
+          <input id="bt" type="button" value="Calcular" onclick="calcular()" />
+        </p>
+      </form>
+      <section id="resultado"></section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
